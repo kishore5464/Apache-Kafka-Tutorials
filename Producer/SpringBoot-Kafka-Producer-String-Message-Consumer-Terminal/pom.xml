@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.kishore</groupId>
-	<artifactId>SpringBoot-Kafka-Producer-String-Message-Consumer-Terminal</artifactId>
+	<artifactId>SpringBoot-Kafka-Producer-String-Message-Terminal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringBoot-Kafka-Producer-String-Message-Consumer-Terminal</name>
+	<name>SpringBoot-Kafka-Producer-String-Message-Terminal</name>
 	<description>Spring Boot Kafka Producer</description>
 
 	<properties>
