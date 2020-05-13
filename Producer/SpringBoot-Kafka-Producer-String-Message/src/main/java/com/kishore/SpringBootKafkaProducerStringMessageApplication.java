@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootKafkaProducerStringMessageTerminalApplication {
+public class SpringBootKafkaProducerStringMessageApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootKafkaProducerStringMessageTerminalApplication.class, args);
+		SpringApplication.run(SpringBootKafkaProducerStringMessageApplication.class, args);
 	}
 
 }

@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootKafkaProducerJsonMessageTerminalApplication {
+public class SpringBootKafkaProducerJsonMessageApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootKafkaProducerJsonMessageTerminalApplication.class, args);
+		SpringApplication.run(SpringBootKafkaProducerJsonMessageApplication.class, args);
 	}
 
 }

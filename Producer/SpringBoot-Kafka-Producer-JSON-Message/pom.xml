@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.kishore</groupId>
-	<artifactId>SpringBoot-Kafka-Producer-JSON-Message-Terminal</artifactId>
+	<artifactId>SpringBoot-Kafka-Producer-JSON-Message</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringBoot-Kafka-Producer-JSON-Message-Terminal</name>
+	<name>SpringBoot-Kafka-Producer-JSON-Message</name>
 	<description>Spring Boot Kafka Producer Json</description>
 
 	<properties>
