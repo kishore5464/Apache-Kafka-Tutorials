@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("kafka")
-public class MessagingController {
+public class HomeController {
 
 	@Autowired
 	private KafkaTemplate<String, String> kafkaTemplate;
@@ -17,7 +17,7 @@ public class MessagingController {
 	public static final String TOPIC = "Kafka_Topic";
 
 	@GetMapping("/send/{data}")
-	public String messaging(@PathVariable("data") String data) {
+	public String stringData(@PathVariable("data") String data) {
 
 		kafkaTemplate.send(TOPIC, data);
 
