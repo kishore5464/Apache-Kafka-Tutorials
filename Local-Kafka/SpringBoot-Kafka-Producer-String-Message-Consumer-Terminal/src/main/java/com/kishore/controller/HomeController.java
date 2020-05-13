@@ -23,4 +23,5 @@ public class HomeController {
 
 		return "Message Send Successfully, Data is: " + data;
 	}
+	
 }
